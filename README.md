@@ -1,5 +1,6 @@
 # Status Bar Tag #
-[Visual Studio Code](https://code.visualstudio.com/) extension for adding a tag in status bar to describe the project.
+[Visual Studio Code](https://code.visualstudio.com/) extension for adding a tag in status bar to describe the project.  
+
 ![StatusBarTag in action](https://raw.githubusercontent.com/string-lzc/status-bar-tag/master/media/tag-use.png)
 
 

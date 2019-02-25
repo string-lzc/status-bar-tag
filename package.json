@@ -2,7 +2,7 @@
   "name": "StatusBarTag",
   "displayName": "status-bar-tag",
   "description": "Add statusbar info to tag the project.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "lzc",
   "engines": {
     "vscode": "^0.10.1"
