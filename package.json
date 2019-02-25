@@ -1,0 +1,46 @@
+{
+  "name": "StatusBarTag",
+  "displayName": "status-bar-tag",
+  "description": "Add statusbar info to tag the project.",
+  "version": "1.0.2",
+  "publisher": "lzc",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "icon": "media/tag.png",
+  "galleryBanner": {
+    "theme": "dark",
+    "color": "#614051"
+  },
+  "icon_attribution": "Icon made by [Anton Saputro](http://www.flaticon.com/authors/anton-saputro) from [Flaticon](http://www.flaticon.com) is licensed by [Creative Commons BY 3.0](http://creativecommons.org/licenses/by/3.0/)",
+  "main": "./extension",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "StatusBarTag configuration",
+      "properties": {
+        "StatusBarTag.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable/Disable StatusBarTag"
+        },
+        "StatusBarTag.text": {
+          "type": "string",
+          "default": "project",
+          "description": "the status bar tag text."
+        }
+        
+      }
+    }
+  },
+
+  "devDependencies": {
+    "vscode": "0.10.x"
+  }
+}
