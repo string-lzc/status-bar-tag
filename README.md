@@ -6,7 +6,10 @@
 
 ## Install ##
 Install [StatusBarTag](https://marketplace.visualstudio.com/items?itemName=lzc.StatusBarTag) directly from the Visual Studio Code extension gallery. 
-
+## Usage ##
+* Use the **Workbench Settings**
+* Add the following line
+> "StatusBarTag.text": "project"
 ## Options ##
 
 ```javascript
